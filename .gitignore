@@ -6,8 +6,10 @@ dist/
 build/
 
 # Local env files
-.env
+.venv
 .env.*
 
 # Firebase config
 src/firebase.js
+
+/backend/.env

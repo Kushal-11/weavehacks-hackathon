@@ -1,0 +1,42 @@
+nohup: ignoring input
+/home/kushal/Documents/Weavehacks hackathon/backend/app/main.py:33: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/home/kushal/Documents/Weavehacks hackathon/backend/app/main.py:44: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+INFO:     Will watch for changes in these directories: ['/home/kushal/Documents/Weavehacks hackathon/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [746072] using WatchFiles
+INFO:     Started server process [746217]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+❌ Error initializing backend: Error 111 connecting to localhost:6379. 111.
+INFO:     127.0.0.1:45758 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54416 - "GET /api/templates/search?query=cat HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/tools/exa_tool.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [746217]
+✅ Backend shutdown successfully
+INFO:     Started server process [748127]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+❌ Error initializing backend: Error 111 connecting to localhost:6379. 111.
+INFO:     127.0.0.1:50748 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36632 - "GET /api/templates/search?query=funny HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [748127]
+✅ Backend shutdown successfully
+INFO:     Stopping reloader process [746072]
